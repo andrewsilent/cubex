@@ -1,0 +1,841 @@
+@media all and (max-width: 1650px) {
+  #portfolio .content {
+    max-width: 1060px;
+    margin: 0 auto; }
+  .portfolio .slider img {
+    height: 330px;
+    width: 600px; }
+  .description {
+    max-width: 600px; } }
+
+@media all and (max-width: 1640px) {
+  #section-2 .content {
+    margin-top: 50px; } }
+
+@media all and (max-width: 1620px) {
+  #section-1 {
+    background-position-x: 35%; }
+  #section-4 {
+    background-position-x: 45%; }
+    #section-4 .content {
+      margin-left: 200px; }
+  #section-5 .content {
+    margin-left: 200px; }
+  .coop-card {
+    margin: 50px 0px 50px 0; } }
+
+@media all and (max-width: 1460px) {
+  .pager {
+    top: 50%; }
+  .foot-panel {
+    bottom: 30px; }
+  .main-menu ul li {
+    line-height: 1; }
+  .burger {
+    margin-bottom: 10px; }
+  #section-2 .apple {
+    background-size: 440px 580px;
+    max-height: 720px; }
+  #section-5 .content .leaf {
+    margin-top: 0px; }
+  .owl-carousel .owl-item img {
+    height: 850px; }
+  .coop-photo {
+    top: -60px; }
+  .team-slider .coop-icon {
+    width: 100px;
+    height: 100px;
+    background-size: 48px; } }
+
+@media all and (max-width: 1366px) {
+  .head-panel .MobileMenu {
+    display: block; }
+  .head-panel .img_res {
+    display: inline-block; }
+  #section-1 .content {
+    margin-left: 0;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 50px; }
+    #section-1 .content h1 {
+      margin-top: 50px; }
+  #section-2 .content, #section-3 .content, #section-4 .content, #section-5 .content {
+    margin-left: 0;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 50px; }
+  #section-1 .content {
+    margin-left: 237px;
+    margin-top: 118px; }
+  #section-6, footer .card {
+    height: auto; }
+  .section {
+    min-height: auto;
+    height: auto; }
+  #section-1 {
+    height: 100vh; }
+  .main-menu ul li a {
+    font: 700 0.8rem/1.2 'Montserrat', sans-serif; }
+  .coop-sign {
+    margin-top: 15px; }
+  #section-4 {
+    background-size: 1200px 630px;
+    background-position: right bottom; }
+    #section-4 .content .leaf {
+      margin-top: 0px; }
+  #section-3 h2 {
+    margin-bottom: 30px; }
+  #section-3 .content .contact {
+    margin-top: 15px; }
+  #section-4 h2 {
+    margin-bottom: 40px; }
+  #section-5 .content .leaf {
+    margin-top: -70px; }
+  footer .content {
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 70px;
+    -webkit-justify-content: space-around;
+    justify-content: space-around; }
+  footer .card {
+    max-width: 400px; }
+  .message-form input, .message-form textarea {
+    margin: 10px 0 20px 0; }
+  #section-2 h2 {
+    margin-bottom: 15px; }
+  .services {
+    max-width: 755px;
+    width: 100%;
+    left: 0;
+    margin-left: 0; }
+    .services .row {
+      max-width: 740px;
+      width: 100%;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: space-between; }
+    .services > div:nth-child(1) {
+      margin-bottom: 20px; }
+  #section-2 h2 {
+    position: relative;
+    left: 0; }
+  #section-2 .service {
+    height: 200px;
+    padding: 20px;
+    box-sizing: content-box;
+    border: 2px solid #000;
+    max-width: 315px; }
+  #section-2 .apple {
+    float: none;
+    background: none;
+    border: none;
+    writing-mode: vertical-rl;
+    color: #000;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    height: 510px;
+    width: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 2em;
+    position: static; }
+    #section-2 .apple .contact {
+      top: 60%;
+      border: 2px solid #2b2a2a;
+      position: absolute;
+      right: 14px;
+      height: 45px;
+      font-size: 1.125rem;
+      position: static;
+      writing-mode: vertical-rl;
+      height: 510px;
+      width: 50px;
+      text-align: center;
+      box-sizing: border-box; }
+  .foot-panel.clear .leaf, .pager {
+    display: none; }
+  .copyright {
+    margin-top: 20px; }
+  footer .card > p, footer .card .email-component, footer .card .phone-component {
+    margin-bottom: 30px; }
+  footer .card p {
+    font: 300 1rem/1.2 'Open-Sans', sans-serif; }
+  #section-2, #section-3, #section-4, #section-5 {
+    padding-bottom: 40px;
+    padding-top: 40px; }
+  #team {
+    padding-bottom: 40px; }
+  #section-5 {
+    border-bottom: 2px #fff solid; }
+  footer .card h2 {
+    font-size: 2.25rem;
+    text-transform: uppercase; }
+  footer .card p {
+    font-size: 1rem; }
+  footer .card .phone-component a, footer .card .phone-component p {
+    font-size: 1.5rem; }
+  .owl-carousel .owl-item img {
+    height: 750px; }
+  .page-title {
+    display: none; }
+  #jobs .content, #team .content, #contact .content, #portfolio .content {
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 50px; }
+  .section .width.marg_top {
+    padding-top: 0px; }
+  .states .state {
+    max-width: 360px;
+    width: 100%;
+    height: 480px; }
+  .section.dark.section-6 {
+    height: auto; }
+  #jobs h1 {
+    font-size: 2rem; }
+  #jobs h2 {
+    font-size: 1.5rem;
+    font: 700 1.3rem/1.68 'Open Sans', sans-serif; }
+  #team h2, #contact h2, #portfolio h2 {
+    font: 700 1.3rem/1.68 'Open Sans', sans-serif; }
+  #contact .address .city, #contact .address .phone {
+    font: 600 1.3rem/1.4 'Open Sans', sans-serif; }
+  #contact .address .mail {
+    font: 300 1.3rem/1.4 'Open Sans', sans-serif; }
+  .light.relative h1 {
+    font-size: 2rem; }
+  body {
+    background-color: #fff; }
+  #section-4 {
+    margin-bottom: 60px; }
+  .burger {
+    display: none; }
+  .MobileMenu {
+    display: block; }
+  .logo-img {
+    background-image: url(../img/logo_red_square.png) !important;
+    background-size: cover !important;
+    width: 60px;
+    height: 60px;
+    display: block; }
+  .head-panel {
+    padding-top: 10px; }
+    .head-panel nav, .head-panel div nav {
+      display: none; }
+  .off_canvas {
+    display: block; }
+  .head-panel .main-menu {
+    display: none; }
+  .width {
+    border: none; }
+  #section-1 .logo-img {
+    display: block; }
+  .close {
+    background-size: 20px;
+    top: 10px;
+    right: 2px; }
+  .MobileMenu-btnContainer {
+    width: 60px;
+    height: 60px; }
+  .head-panel {
+    display: none; }
+  #team .head-panel, #contact .head-panel, #jobs .head-panel, #section-1 .head-panel, #portfolio .head-panel, .ops .head-panel {
+    display: block; }
+  .portfolio .pf-card {
+    height: 380px; }
+  .coop-card:nth-child(3n+2) {
+    transform: none; }
+  .department {
+    display: block; }
+  .coop-cards {
+    margin: 0 auto; }
+  .coop-card {
+    margin: 50px 10px 50px 10px;
+    opacity: 1;
+    transition: all 0.5s ease 0.1s; }
+  .coop-cards .hidden {
+    display: none; }
+  .states {
+    margin-bottom: 0; }
+  .portfolio .slider-description {
+    font: 400 1.1rem/1.4 'Open Sans', sans-serif; }
+  .content.relative.dev {
+    margin-top: 100px !important; }
+  .padding_bottom {
+    padding-bottom: 50px; } }
+
+.section.ops {
+  min-height: 100%; }
+
+.content.relative.page-error {
+  margin-top: 200px !important; }
+
+#section-3.ops {
+  background-position-y: 30%; }
+
+@media all and (max-width: 1280px) {
+  .services {
+    max-width: 740px; }
+  #section-5 .content .leaf {
+    margin-top: 0px; }
+  #section-4 {
+    background-size: 1500px 830px;
+    background-position: 50% bottom; }
+  .team-slider .coop-icon {
+    width: 80px;
+    height: 80px;
+    background-size: 38px;
+    left: 430px; }
+  .coop-sign {
+    margin-top: 100px; }
+  .owl-carousel .owl-item {
+    height: 600px; }
+    .owl-carousel .owl-item img {
+      height: 700px; }
+  .coop-photo {
+    top: 0;
+    margin-left: 30px; }
+  .coop-sign {
+    max-width: 360px; } }
+
+@media all and (max-width: 1200px) {
+  .coop-photo {
+    margin-left: 0; }
+    .coop-photo .black {
+      display: none !important; }
+  .team-slider .coop-icon {
+    left: 400px; }
+  #section-4 h2 {
+    margin-bottom: 50px; }
+  .coop-header {
+    font: 700 2.25rem/1.2 'Open Sans', sans-serif;
+    max-width: 500px; }
+    .coop-header i {
+      font: 900 4.25rem/1.5 'Open Sans', sans-serif; }
+  .coop-photo {
+    top: 0; }
+  .head-panel .mobile_menu {
+    display: inline-block; }
+  #section-1 {
+    background-size: cover;
+    background-position-x: 65%;
+    height: auto;
+    padding-bottom: 25px; }
+    #section-1 .content h1 {
+      max-width: 380px;
+      margin-top: 260px; }
+  #section-2 h2, .services {
+    left: 0; }
+  #section-2 .service {
+    box-sizing: content-box;
+    border: 2px solid #000;
+    max-width: 315px; }
+  .services > div:nth-child(1) {
+    margin-bottom: 20px; }
+  #section-2 .content {
+    max-width: 840px;
+    margin: 0 auto;
+    margin-top: 50px; }
+  #section-3 {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 230px;
+    background-size: cover; }
+  .content.relative > p:nth-child(2) {
+    max-width: 434px;
+    width: 100%;
+    height: 232px;
+    overflow: hidden;
+    font-size: 1.5rem; }
+  .content.relative > p:nth-child(3), .content.relative > p:nth-child(4), .content.relative > p:nth-child(5) {
+    display: none; }
+  #section-3 .content p {
+    font: 300 1.5rem/1.5 'Open Sans', sans-serif; }
+  #section-3 .content .contact {
+    margin-top: 35px; }
+  .our_text, .mobile_menu {
+    display: block; }
+  #section-4 {
+    padding-top: 40px; }
+  #section-1 .content, #section-3 .content, #section-4 .content, #section-5 .content {
+    max-width: 840px;
+    margin-left: 0px;
+    margin-top: 0;
+    margin: 0 auto; }
+  .social-links {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: static;
+    max-width: 840px;
+    width: 100%;
+    display: block; }
+  #section-4 .content h3 i, #section-5 .content h3 i {
+    font-size: 2.5rem; }
+  #section-4 .content h3, #section-5 .content h3 {
+    font-size: 2rem;
+    max-width: 430px;
+    margin-bottom: 80px;
+    margin-top: 60px; }
+  #section-4 {
+    background-size: 1200px 680px;
+    position: relative; }
+    #section-4 h2 {
+      margin-bottom: 10px; }
+    #section-4 .content .leaf {
+      position: absolute;
+      top: 1px;
+      right: 0; }
+  .leaf .leaf-prev, .leaf .leaf-next {
+    height: 60px;
+    width: 60px; }
+  .light .leaf .leaf-prev, .light .leaf .leaf-next {
+    background-position: center; }
+  .dark .leaf .leaf-prev, .dark .leaf .leaf-next {
+    background-position: center; }
+  #section-4 {
+    padding-bottom: 80px; }
+  .coop-sign {
+    margin-top: 80px; }
+  #section-2 .apple {
+    height: 510px; }
+    #section-2 .apple .contact {
+      height: 510px; }
+  footer .card .phone-component a, footer .card .phone-component p {
+    font-size: 1.5rem; }
+  .foot-panel {
+    position: static; }
+  #section-1 .content h1 {
+    margin-top: 45px; }
+  #section-6 .head-panel, #section-5 .portfolio .leaf {
+    display: none; }
+  #section-5 .portfolio .slider {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto; }
+  .portfolio .slider {
+    height: auto; }
+  .portfolio .slider ul {
+    max-width: 840px;
+    width: 100%; }
+  .portfolio .slider ul li {
+    float: none;
+    margin-bottom: 30px;
+    height: auto;
+    display: inline-block; }
+    .portfolio .slider ul li:nth-child(2n+1) {
+      margin-right: 15px; }
+    .portfolio .slider ul li:nth-child(2n) {
+      margin-left: 15px; }
+  #section-5 .portfolio .slider img {
+    max-width: 400px;
+    width: 100%;
+    padding-right: 0;
+    height: auto; }
+  #section-5 .description {
+    height: 100%;
+    max-width: 400px; }
+    #section-5 .description p {
+      font-size: 1rem; }
+  #section-5 .portfolio .description a {
+    font-size: 2rem; }
+  .button.btn-w-w {
+    margin-top: 50px; }
+  .hidden {
+    position: absolute;
+    display: none !important;
+    right: -100vw;
+    opacity: 0 !important; }
+  .coop-card:nth-child(3n+2) {
+    transform: none; }
+  .view {
+    display: block; }
+  #section-4 .width, #section-5 .width {
+    padding-top: 60px; }
+  .team-slider .coop-icon {
+    box-shadow: 2px 2px 15px 1px #2b2a2a; }
+  .content.relative.page-error {
+    max-width: 350px !important; } }
+
+@media all and (max-width: 1120px) {
+  #portfolio .portfolio.flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  .portfolio .pf-card {
+    max-width: 940px;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin: 0 auto; }
+  .portfolio .pf-card .leaf {
+    position: static; }
+  #portfolio .portfolio .slider ul {
+    max-width: 600px;
+    margin: 0 auto; }
+  .text_width {
+    max-width: 700px;
+    width: 100%; }
+  #portfolio .portfolio .leaf {
+    margin-top: 0; } }
+
+@media all and (max-width: 1100px) {
+  .coop-photo {
+    margin-left: -50px; }
+  #section-4 {
+    margin-bottom: 40px; }
+  .team-slider .coop-icon {
+    left: 330px; }
+  .coop-header {
+    max-width: 400px; }
+  #contact {
+    background-position: center 100px; } }
+
+@media all and (max-width: 1070px) {
+  .coop-photo {
+    margin-left: 350px !important; }
+  .team-slider .coop-icon {
+    left: 300px; } }
+
+@media all and (max-width: 980px) {
+  #section-4 {
+    background-position: 75% bottom; }
+  .portfolio .slider-description {
+    font: 400 1rem/1 'Open Sans', sans-serif; } }
+
+@media all and (max-width: 880px) {
+  .coop-photo {
+    margin-left: 50px; }
+  #section-1 {
+    height: auto; }
+  .services .row {
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  #section-2 .content, #section-3 .content, #section-5 .content, #section-6 .content, #section-4 .content {
+    max-width: 400px; }
+  #section-1 .content {
+    margin-left: 0;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px; }
+  .social-links {
+    max-width: 400px; }
+    .social-links a {
+      padding-right: 25px; }
+  #section-2 .service {
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 400px;
+    box-sizing: border-box;
+    height: 100%; }
+  .services > div:nth-child(1) {
+    margin-bottom: 0; }
+  footer .content {
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  .portfolio .slider ul li:nth-child(2n+1) {
+    margin-right: 0px; }
+  .portfolio .slider ul li:nth-child(2n) {
+    margin-left: 0px; }
+  #section-4 {
+    background: #fff; }
+  .team-slider .coop-icon {
+    left: 0; }
+  #section-4 .content h3 {
+    display: none; }
+  footer .content .card {
+    margin: 0 auto;
+    box-sizing: border-box; }
+  .contact {
+    max-width: 385px;
+    width: 100%; }
+  #section-1 .content h1 {
+    margin-top: 0;
+    font-size: 2.25rem;
+    max-width: 190px; }
+  #team .logo-img, #contact .logo-img, #jobs .logo-img, #section-1 .logo-img, #portfolio .logo-img, .ops .logo-img {
+    height: 48px;
+    width: 48px; }
+  #section-4 {
+    padding-bottom: 0; }
+  #section-4 .content .leaf {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .head-panel .img_res {
+    width: 48px; }
+  .mobile_menu {
+    width: 48px;
+    width: 24px; }
+  #section-2 h2, #section-3 h2, #section-4 h2, #section-5 h2 {
+    font-size: 1.5rem; }
+  #section-3 .content p {
+    font-size: 1.125rem; }
+  .content.relative > p:nth-child(2) {
+    height: 180px; }
+  #section-5 .content h3 {
+    font-size: 1.5rem;
+    max-width: 320px;
+    margin-bottom: 40px;
+    margin-top: 40px; }
+    #section-5 .content h3 i {
+      font-size: 2.25rem; }
+  #section-4 h2 {
+    margin-bottom: 100px; }
+  #section-3 {
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 160px;
+    background-position-x: 80%; }
+    #section-3 .button.btn-w-w {
+      margin-top: 80px; }
+  .our_text {
+    width: 430px;
+    margin: 0 auto;
+    position: static;
+    font-size: 4.5rem;
+    color: #403F3F;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px; }
+  footer .card .email-component, footer .card .phone-component, footer .card > p {
+    margin-bottom: 40px; }
+  footer .card .social-component {
+    margin: 20px 0 0px 0; }
+  .leaf .leaf-prev, .leaf .leaf-next {
+    height: 40px;
+    width: 40px; }
+  #section-4 .content .leaf {
+    width: 100px; }
+  .head-panel .img_res, .MobileMenu-btnContainer {
+    top: 10px; }
+  .MobileMenu-container {
+    top: 60px; }
+  .MobileMenu-btnContainer {
+    width: 24px;
+    height: 24px; }
+  .MobileMenu-btn {
+    width: 20px;
+    height: 2px;
+    margin-top: -1px; }
+    .MobileMenu-btn::before, .MobileMenu-btn::after {
+      width: 20px;
+      height: 2px; }
+    .MobileMenu-btn::before {
+      margin-top: -7px; }
+    .MobileMenu-btn::after {
+      margin-top: 5px; }
+  .MobileMenu-checkbox:checked ~ .MobileMenu-btnContainer .MobileMenu-btn::before {
+    top: 7px; }
+  .MobileMenu-checkbox:checked ~ .MobileMenu-btnContainer .MobileMenu-btn::after {
+    top: -5px; }
+  .MobileMenu-item {
+    font-size: 20px; }
+  #section-2 .apple {
+    height: 55px;
+    max-width: 405px;
+    width: 100%;
+    box-sizing: border-box;
+    writing-mode: lr;
+    margin: 0 auto;
+    margin-top: 25px; }
+    #section-2 .apple .contact {
+      height: 45px;
+      max-width: 405px;
+      width: 100%;
+      box-sizing: border-box;
+      writing-mode: lr;
+      margin: 0 auto; }
+  #jobs h2 {
+    font-size: 1.125rem;
+    font: 700 1.1rem/1.68 'Open Sans', sans-serif; }
+  #team h2, #contact h2, #portfolio h2 {
+    font: 700 1.1rem/1.68 'Open Sans', sans-serif; }
+  .contact .address .city {
+    font: 600 1.1rem/1.4 'Open Sans', sans-serif; }
+  #contact .address .phone {
+    font: 600 1.1rem/1.4 'Open Sans', sans-serif; }
+  #contact .address .mail {
+    font: 300 1.1rem/1.4 'Open Sans', sans-serif; }
+  .coop-photo img {
+    margin-left: 0 !important; }
+  .coop-header {
+    display: none; }
+  #section-4 h2 {
+    margin-bottom: 30px; }
+  .coop-sign {
+    margin-top: 0; }
+  #portfolio .department {
+    max-width: 400px; }
+  .coop-photo {
+    margin-left: 60px !important; }
+  .card h2, footer .card .email-component, footer .card .phone-component, footer .card > p, .card .phone-component .number {
+    margin-bottom: 25px; }
+  .content.relative.dev {
+    margin-top: 150px !important; } }
+
+@media all and (max-width: 771px) {
+  .states {
+    margin-bottom: 10px; }
+    .states .state {
+      margin: 0 auto;
+      margin-bottom: 25px; }
+  .owl-carousel .owl-item img {
+    height: 500px; }
+  .coop-photo {
+    top: 80px; }
+  #section-4 {
+    margin-bottom: 0; }
+  .team-slider .coop-icon {
+    width: 60px;
+    height: 60px;
+    background-size: 30px;
+    left: auto;
+    right: 20px;
+    top: 70px; }
+  .coop-cards, #team .department {
+    max-width: 320px; } }
+
+@media all and (max-width: 731px) {
+  .coop-card.dark {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    height: 400px; }
+  .department {
+    margin-bottom: 50px; }
+  #portfolio .portfolio .slider ul {
+    max-width: 400px; }
+  .portfolio .slider img {
+    height: 230px;
+    width: 400px; }
+  #portfolio .portfolio {
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 20px; }
+  .filter ul {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex !important;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+  .vendors button {
+    padding: 0;
+    font-size: 0.9rem; }
+  .filter ul li {
+    padding: 0; }
+  .light .content h3 {
+    font: 800 1.8rem/1.68 'Montserrat', sans-serif; }
+  .section.ops {
+    min-height: auto; } }
+
+@media all and (max-width: 500px) {
+  #contact .address {
+    margin-top: 20px;
+    padding-top: 80px; }
+  #contact h2 {
+    margin-bottom: 20px; }
+  .coop-photo {
+    top: 130px;
+    margin-left: 50px !important; }
+  .owl-carousel .owl-item {
+    height: 540px; }
+    .owl-carousel .owl-item img {
+      height: 400px; }
+  .requirements {
+    font-size: 16px; } }
+
+@media all and (max-width: 480px) {
+  #portfolio .portfolio .slider ul {
+    max-width: 270px; }
+  .portfolio .slider img {
+    height: 170px;
+    width: 270px; }
+  .portfolio .pf-card {
+    padding: 10px 0; }
+  .portfolio .pf-card .leaf {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    width: 50px; }
+  .portfolio .slider-description {
+    font: 400 0.9rem/1 'Open Sans', sans-serif; }
+  .portfolio .description {
+    padding: 5px 5px 0 5px; }
+    .portfolio .description p {
+      font-size: 0.9rem !important; }
+    .portfolio .description a {
+      font-size: 1.5rem !important; }
+  .social-links a {
+    padding-right: 10px;
+    font-size: 0.8rem; } }
+
+@media all and (max-width: 420px) {
+  .our_text {
+    margin-top: 100px;
+    margin-left: -30px; }
+  #section-1 {
+    background-position-x: 75%; }
+  .owl-carousel .owl-item img {
+    height: 400px; }
+  .coop-photo {
+    top: 120px; }
+  .owl-carousel .owl-item {
+    height: 550px; }
+  #contact .address {
+    margin-top: 40px; } }
+
+@media all and (max-width: 375px) {
+  #jobs h2 {
+    font-size: 1.5rem; }
+  .states .state {
+    box-sizing: content-box;
+    padding: 10px;
+    height: 400px; }
+  .content .state h3 {
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  .state .date, .state .description, .state .readmore {
+    text-align: center; }
+  .state .fulltitle {
+    text-align: center;
+    font: 800 2rem/1.2 'Montserrat', sans-serif; }
+  .content .coop-card .coop-name {
+    text-align: center;
+    font: 800 2rem/1.2 'Montserrat', sans-serif; }
+  .coop-card.dark {
+    padding: 10px;
+    height: 400px; }
+  .coop-card .coop-post {
+    text-align: center;
+    margin: 0 auto; }
+  .coop-card .social {
+    width: 153px;
+    margin: 0 auto;
+    margin-top: 15px; }
+  .state .readmore, .coop-card .coop-sign {
+    right: 0;
+    left: 0;
+    margin: 0 auto; }
+  .owl-carousel .owl-item {
+    height: 450px; }
+    .owl-carousel .owl-item img {
+      height: 300px; }
+  .coop-sign .coop-name {
+    font: 700 2rem/1.3 'Open Sans', sans-serif; } }
+
+@media all and (max-width: 360px) {
+  .coop-photo {
+    margin-left: 20px !important; }
+  .social-links a {
+    padding-right: 5px; } }

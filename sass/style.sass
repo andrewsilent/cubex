@@ -1,0 +1,1662 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800|Open+Sans:300,400,400i,700,800,800i')
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  border: 0
+  font-size: 100%
+  font: inherit
+  margin: 0
+  padding: 0
+  vertical-align: baseline
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, input, textarea, select, button
+  display: block
+
+\:focus
+  outline: 0
+
+body
+  line-height: 1
+  position: relative
+  transition: all 0.5s ease 0.1s
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote
+  &:before, &:after
+    content: ''
+    content: none
+
+q
+  &:before, &:after
+    content: ''
+    content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+
+.clear
+  &:before, &:after
+    content: ''
+    clear: both
+    display: block
+
+.clearfix:after
+  content: ''
+  clear: both
+  display: block
+
+.relative
+  position: relative
+
+.absolute
+  position: absolute
+  top: 0
+  left: 0
+
+html
+  height: 100%
+  min-height: 100%
+  min-width: 300px
+
+body
+  height: 100%
+  min-height: 100%
+  min-width: 300px
+  color: #fff
+  font: 300 1rem/1.2 'Monserrat', sans-serif
+  overflow-x: hidden
+  -webkit-font-smoothing: antialiased
+  -moz-font-smoothing: antialiased
+  -ms-font-smoothing: antialiased
+  -o-font-smoothing: antialiased
+  font-smoothing: antialiased
+
+a
+  color: #fff
+  outline: none
+  text-decoration: none
+  &:hover
+    color: #fff
+
+h1
+  font: 800 4.5rem/1.2 'Montserrat', sans-serif
+
+h2
+  font: 700 2.25rem/1.68 'Open Sans', sans-serif
+
+h3
+  font: 800 2.25rem/1.68 'Montserrat', sans-serif
+
+p
+  line-height: 1.5
+
+h1, h2, h3, h4, h5, h6, p
+  cursor: default
+
+.no-display
+  display: none
+
+.loading *
+  transition: all 0s ease 0s !important
+  -ms-transition: all 0s ease 0s !important
+  -moz-transition: all 0s ease 0s !important
+  -webkit-transition: all 0s ease 0s !important
+
+.before
+  opacity: 0 !important
+  transform: translateY(-15px) !important
+
+.animate
+  opacity: 1
+  transition: all 0.5s ease 0.1s
+  transform: translateY(0)
+
+.on-screen, .scroll-to-top, .scroll-to-bottom, .jump-to-top, .jump-to-bottom
+  position: absolute
+  top: 0
+  left: 0
+
+.on-screen
+  transform: translate3d(0, 0, 0)
+  transition: all 0.5s ease 0.1s
+
+.scroll-to-top
+  transform: translate3d(0, -100%, 0)
+  transition: all 0.5s ease 0.1s
+
+.jump-to-top
+  transform: translate3d(0, -100%, 0)
+  transition: all 0s ease 0s
+
+.scroll-to-bottom
+  transform: translate3d(0, 100%, 0)
+  transition: all 0.5s ease 0.1s
+
+.jump-to-bottom
+  transform: translate3d(0, 100%, 0)
+  transition: all 0s ease 0s
+
+#wrapper
+  height: 1px
+  min-height: 100%
+  transition: all 0.5s ease 0.1s
+
+.width
+  box-sizing: border-box
+  height: 100%
+  max-width: 1710px
+  margin: 0 auto
+  width: 100%
+  border: 1px solid rgba(151, 151, 151, 0.2)
+  border-top: none
+  border-bottom: none
+
+.section
+  background-size: cover
+  box-sizing: border-box
+  height: 100vh
+  min-height: 960px
+  overflow: hidden
+  padding: 0 30px
+  width: 100%
+  margin: 0 auto
+  .width
+    height: 100%
+    position: relative
+
+aside
+  padding: 0 30px
+  max-width: 1710px
+  margin: 0 auto
+  width: 100%
+
+.dark
+  background-color: #2b2a2a
+  color: #fff
+
+.light
+  background-color: #fff
+  color: #2b2a2a
+
+#section-1
+  background: #2b2a2a url(../img/head-bg.png) center 0 no-repeat
+
+#section-2
+  z-index: 9
+
+#section-3
+  background: #2b2a2a url(../img/agency-bg.png) center 0 no-repeat
+  z-index: 8
+
+#section-4
+  background-color: #fff
+
+#section-5
+  background: #2b2a2a url(../img/portfolio-bg.png) center 0 no-repeat
+  z-index: 6
+
+#section-6
+  z-index: 5
+
+#contact
+  background: #fff url(../img/worldmap.png) center 0 no-repeat
+
+#team, #jobs, #portfolio, #contact
+  height: auto
+
+.burger
+  height: 24px
+  margin-bottom: 20px
+  text-align: right
+  width: 100%
+  a
+    content: ''
+    display: inline-block
+    line-height: 0
+    overflow: hidden
+
+.main-menu
+  max-width: 300px
+  text-align: right
+  ul li
+    line-height: 1.8
+    a
+      font: 700 1.125rem/1.2 'Montserrat', sans-serif
+      text-transform: uppercase
+
+.dark .main-menu ul li a
+  color: #fff
+  transition: all 0.5s ease 0.1s
+
+
+
+.main-menu ul li a
+  color: #2b2a2a
+  transition: all 0.5s ease 0.1s
+  &:hover
+    color: #D85151
+    transition: all 0.5s ease 0.1s
+  &:active
+    color: #D85151
+
+.pager
+
+  position: fixed
+  top: 45%
+  z-index: 100
+  ul li
+    a
+      color: rgba(120, 120, 120, 0.9)
+      display: block
+      font: 600 1.2rem/1.2 'Monserrat', sans-serif
+      line-height: 2.85
+      margin-left: 10px
+      position: relative
+      transition: all 0.5s ease 0.1s
+      vertical-align: middle
+      &.active
+        color: #D85151
+        transition: all 0.5s ease 0.1s
+    display: block
+    line-height: 2.85
+  .bullet
+    border: 1px solid #888
+    border-radius: 50%
+    box-sizing: border-box
+    height: 5px
+    left: -12px
+    position: absolute
+    top: 47%
+    transition: all 0.5s ease 0.1s
+    width: 5px
+    z-index: 1
+  .active
+    .bullet
+      background: transparent
+      border: 2px solid #D85151
+      box-sizing: border-box
+      height: 9px
+      left: -14px
+      top: 43%
+      transition: all 0.5s ease 0.1s
+      width: 9px
+    position: relative
+  .bullet::after
+    display: block
+    content: ''
+    opacity: 0
+    height: 3px
+    width: 3px
+    position: absolute
+    top: 1px
+    left: 1px
+    transition: all 0.5s ease 0.1s
+  .active .bullet::after
+    background: #D85151
+    opacity: 1
+    transition: all 0.5s ease 0.1s
+
+.foot-panel
+  .leaf
+    height: 100%
+    &::after
+      content: ''
+      display: inline-block
+      width: 100%
+    height: 24px
+    width: 58px
+    padding: 0
+    margin: 0
+    text-align: justify
+    display: inline-block
+    overflow: hidden
+  > div
+    display: inline-block
+    vertical-align: middle
+
+.social-links
+  display: inline-block
+  overflow: hidden
+
+.down, .up
+  content: ''
+  display: inline-block
+  height: 24px
+  overflow: hidden
+  width: 24px
+
+.dark .leaf
+  .down
+    background: #fff url(../img/vh-arrow-r.png) center center no-repeat
+    transform: rotate(90deg)
+  .up
+    background: #fff url(../img/vh-arrow-b.png) center center no-repeat
+    transform: rotate(-90deg)
+
+.light .leaf
+  .down
+    background: #2b2a2a url(../img/vh-arrow-r.png) center center no-repeat
+    transform: rotate(90deg)
+  .up
+    background: #2b2a2a url(../img/vh-arrow-w.png) center center no-repeat
+    transform: rotate(-90deg)
+
+
+.leaf
+  text-align: justify
+
+.leaf::after
+  content: ''
+  display: inline-block
+  width: 100%
+
+.leaf
+  .leaf-prev, .leaf-next
+    cursor: pointer
+    display: inline-block
+    height: 70px
+    width: 70px
+
+.dark .leaf
+  .leaf-prev
+    background: #fff url(../img/hr-arrow-b.png) center center no-repeat
+    transform: rotate(-90deg)
+  .leaf-next
+    background: #fff url(../img/hr-arrow-b.png) center center no-repeat
+    transform: rotate(90deg)
+
+.light .leaf
+  .leaf-prev
+    background: #2b2a2a url(../img/hr-arrow-w.png) center center no-repeat
+    transform: rotate(-90deg)
+  .leaf-next
+    background: #2b2a2a url(../img/hr-arrow-w.png) center center no-repeat
+    transform: rotate(90deg)
+
+#section-4 .content .leaf
+  margin-top: 20px
+  width: 160px
+
+.portfolio .leaf
+  float: right
+  margin-top: -70px
+  padding-bottom: 30px
+  width: 160px
+  max-height: 70px
+
+
+.head-panel
+  letter-spacing: 1px
+  padding-top: 30px
+  text-align: justify
+  position: relative
+  z-index: 100
+  &::after
+    content: ''
+    display: inline-block
+    width: 100%
+  > div, nav, div nav
+    display: inline-block
+    vertical-align: top
+
+.logo-img
+  display: block
+  height: 45px
+  width: 115px
+
+.dark .logo-img
+  background: url(../img/logo-white.png) 0 0 no-repeat
+
+.light .logo-img
+  background: url(../img/logo-black.png) 0 0 no-repeat
+
+.logo, .main-menu
+  display: inline-block
+
+.content
+  display: block
+  margin-left: 100px
+
+#section-1 .content
+  margin-left: 237px
+
+#section-2 .content
+  margin: 0 auto
+  margin-left: 100px
+  max-width: 1300px
+
+#section-1 .content h1
+  padding-bottom: 45px
+  text-transform: uppercase
+  i
+    color: #D85151
+
+.button
+  box-sizing: border-box
+  display: block
+  font: 700 1.5rem/2.5 'Montserrat', sans-serif
+  height: 69px
+  text-align: center
+  text-transform: uppercase
+  transition: all 0.5s ease 0.1s
+  max-width: 385px
+  width: 100%
+  cursor: pointer
+
+.contact:hover
+  color: #D85151
+
+.btn-w-r
+  border: 4px solid #D85151
+  color: #fff
+  &:hover
+    background: #D85151
+    border-color: #D85151
+    color: #fff
+
+.btn-b-b
+  border: 4px solid #2b2a2a
+  color: #2b2a2a
+  &:hover
+    background: #2b2a2a
+    color: #fff
+    border-color: #2b2a2a
+
+.btn-w-w
+  border: 4px solid #fff
+  color: #fff
+  margin-top: 25px
+  &:hover
+    background: #fff
+    color: #2b2a2a
+    border-color: #fff
+
+.view
+  margin: 0 auto;
+  display: none
+
+.foot-panel
+  bottom: 30px
+  left: 0px
+  position: absolute
+
+.social-links
+  margin-left: 242px
+  bottom: 30px
+  left: 20px
+  position: absolute
+  width: 100%
+  a
+    color: rgba(255, 255, 255, 0.5)
+    font: 700 1rem/1.2 'Montserrat', sans-serif
+    padding-right: 50px
+    text-transform: uppercase
+    transition: 0.3s ease 0.2s
+    &:hover
+      color: rgba(255, 255, 255, 1)
+      transition: 0.3s ease 0.1s
+
+#section-2 h2, #section-3 h2, #section-4 h2, #section-5 h2
+  font: 700 2.25rem/1.68 'Open Sans', sans-serif
+  margin-top: -57px
+  margin-bottom: 57px
+  text-transform: uppercase
+
+#section-4 .content h2 i, #section-5 .content h2 i
+  padding: 0 5px
+
+.content h2
+  b
+    display: inline-block
+    line-height: 1.68
+    padding: 0 10px
+  i
+    color: #D85151
+
+.dark .content h2 b
+  background-color: #fff
+  color: #2b2a2a
+
+.light .content h2 b
+  background-color: #2b2a2a
+  color: #fff
+
+footer h2
+  font: 800 4.5rem/1.2 'Montserrat', sans-serif
+
+#section-5 h2
+  margin-bottom: 0
+
+#section-4 .content h3, #section-5 .content h3, .coop-header
+  font: 700 3.25rem/1.2 'Open Sans', sans-serif
+  max-width: 600px
+  width: 100%
+
+.dark .content h3
+  color: #fff
+
+.light .content h3
+  color: #2b2a2a
+
+#section-4 .content h3 i, #section-5 .content h3 i
+  color: #D85151
+  font: 900 6.25rem/1.5 'Open Sans', sans-serif
+  font-style: italic
+
+.coop-header i
+  color: #D85151
+  font: 900 6.25rem/1.5 'Open Sans', sans-serif
+  font-style: italic
+  line-height: 1
+
+.services
+  display: inline-block
+  position: relative
+  z-index: 2
+  margin-left: 0
+
+.service h3
+  font: 700 1.5rem/1.5 'Open Sans', sans-serif
+  padding-bottom: 10px
+
+.service .icon
+  display: block
+  content: ''
+  background: url(../img/services-sprite.png) no-repeat
+
+.services .row:nth-child(1) .service:nth-child(1) .icon
+  background-position: -1px -162px
+  width: 49px
+  height: 52px
+
+.services .row:nth-child(1) .service:nth-child(2) .icon
+  background-position: -1px -0px
+  width: 50px
+  height: 50px
+
+.services .row:nth-child(2) .service:nth-child(1) .icon
+  background-position: -1px -51px
+  width: 50px
+  height: 59px
+
+.services .row:nth-child(2) .service:nth-child(2) .icon
+  background-position: -1px -111px
+  width: 50px
+  height: 50px
+
+#section-2
+  .service
+    box-sizing: border-box
+    content: ''
+    display: inline-block
+    height: 250px
+    max-width: 360px
+    overflow: hidden
+    padding: 45px
+    transition: all 0.5s ease 0.1s
+    width: 100%
+    &:hover
+      box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.1)
+      transition: all 0.5s ease 0.1s
+    p
+      color: #2b2a2a
+      font: 100 0.9rem/1.2 'Open Sans', sans-serif
+      cursor: default;
+  .apple
+    background: url(../img/services-img.png) 100% 0 no-repeat
+    background-size: 440px 600px
+    border-top: 5px solid #2b2a2a
+    border-right: 5px solid #2b2a2a
+    display: inline-block
+    height: 100vh
+    max-height: 727px
+    max-width: 824px
+    position: relative
+    position: absolute
+    right: 0
+    text-align: right
+    top: 0
+    vertical-align: top
+    width: 100%
+    z-index: 1
+    .button
+      bottom: 0
+      position: absolute
+      right: 92px
+      max-width: 348px
+      width: 100%
+
+#section-3 .content
+  max-width: 834px
+  width: 100%
+  p
+    font: 300 1.125rem/1.5 'Open Sans', sans-serif
+    padding-bottom: 15px
+  .contact
+    margin-top: 20px
+
+#section-4 .content
+  margin-top: -120px
+  margin-left: 260px
+
+.team-slider
+  position: relative
+
+.coop-header ul, .coop-name ul, .coop-post ul, #section-4 .social ul, .coop-photo ul, .coop-icon ul
+  position: relative
+  transition: all 0.5s ease 0.1s
+
+.coop-header ul li, .coop-name ul li, .coop-post ul li, #section-4 .social ul li, .coop-photo ul li, .coop-icon ul li
+  float: left
+
+.coop-header ul li:before, .coop-name ul li:before, .coop-post ul li:before, #section-4 .social ul li:before, .coop-photo ul li:before, .coop-icon ul li:before, .coop-header ul li:after, .coop-name ul li:after, .coop-post ul li:after, #section-4 .social ul li:after, .coop-photo ul li:after, .coop-icon ul li:after
+  display: block
+  content: ''
+
+.owl-carousel .owl-stage-outer
+  overflow: visible !important
+
+.team-slider
+  position: relative
+  li
+    float: left
+
+.coop-header
+  width: 100%
+  max-width: 570px
+  overflow: hidden
+
+.coop-name
+  width: 100%
+  max-width: 400px
+  overflow: hidden
+  ul li
+    display: block
+    width: 400px
+
+.coop-post
+  width: 100%
+  overflow: hidden
+  ul li
+    display: block
+    width: 120px
+
+#section-4
+  .social
+    width: 100%
+    max-width: 172px
+    overflow: hidden
+    ul li
+      display: block
+      width: 172px
+  .content .team-leaf
+    z-index: 100
+    position: relative
+    max-height: 70px
+
+.coop-photo
+  display: block
+  z-index: 2
+  width: 100%
+  max-width: 800px
+  position: absolute !important
+  top: -180px
+  margin-left: 450px !important
+
+.owl-carousel .owl-item img
+  width: auto !important
+
+.coop-photo
+  .black
+    position: relative
+    height: 1060px
+    width: 800px
+    z-index: 10
+    opacity: 1
+    transition: all 0.7s ease 0s
+  .color
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    height: 1060px
+    width: 800px
+    z-index: 9
+  img
+    &.black:hover
+      opacity: 0
+      transition: all 0.7s ease 0s
+    &.color:hover
+
+.team-slider
+  .nik 
+    background: #D85151 url('../img/nikita.svg') center center no-repeat
+  .rod
+    background: #D85151 url('../img/rodion.svg') center center no-repeat
+  .olg
+    background: #D85151 url('../img/oleg.svg') center center no-repeat
+  .evg
+    background: #D85151 url('../img/evgenia.svg') center center no-repeat
+  .coop-icon
+    width: 151px
+    height: 151px
+    background-size: 72px
+    border-radius: 50%
+    position: absolute
+    top: 500px
+    left: 400px
+    z-index: 1
+    box-shadow: 5px 5px 50px 1px #2b2a2a
+
+.coop-sign
+  max-width: 260px
+  width: 100%
+  z-index: 12
+  position: relative
+  .coop-name
+    font: 700 2.25rem/1.3 'Open Sans', sans-serif
+  .coop-post
+    font: 400 1.125rem/1.2 'Open Sans', sans-serif
+    font-style: italic
+  .social .icon
+    border: 2px solid #2b2a2a
+
+#section-4 .social
+  text-align: justify
+  width: 174px
+
+.coop-sign .social
+  margin-top: 15px
+
+.light .social
+  .facebook
+    background: url('../img/social-sprite.png') -135px -45px
+  .linkedin
+    background: url('../img/social-sprite.png') -45px -135px
+  .mail
+    background: url('../img/social-sprite.png') -90px -135px
+  .behance
+    background: url('../img/social-sprite.png') 0 0
+  .dribble
+    background: url('../img/social-sprite.png') -135px 0
+  .github
+    background: url('../img/social-sprite.png') -135px -90px
+  .instagram
+    background: url('../img/social-sprite.png') 0 -135px
+  .twitter
+    background: url('../img/social-sprite.png') -135px -135px
+
+.dark .social
+  .facebook
+    background: url('../img/social-sprite.png') 0 -45px
+  .linkedin
+    background: url('../img/social-sprite.png') -90px -45px
+  .mail
+    background: url('../img/social-sprite.png') 0 -90px
+  .behance
+    background: url('../img/social-sprite.png') -45px 0
+  .dribble
+    background: url('../img/social-sprite.png') -90px -90px
+  .github
+    background: url('../img/social-sprite.png') -45px -45px
+  .instagram
+    background: url('../img/social-sprite.png') -90px 0
+  .twitter
+    background: url('../img/social-sprite.png') -45px -90px
+
+.social
+  .icon
+    border: 2px solid #fff
+    cursor: pointer
+    display: inline-block
+    height: 44px
+    transition: all 0.5s ease 0.1s
+    width: 44px
+  &::after
+    content: ''
+    display: inline-block
+    width: 100%
+  .icon:hover
+    border: 2px solid #D85151
+    transition: all 0.5s ease 0.1s
+
+#section-5
+  .content
+    margin-top: -120px
+    margin-left: 260px
+  .portfolio .slider
+    width: 1845px
+
+.portfolio .slider
+  display: block
+  height: 360px
+  overflow: hidden
+  &::after
+    clear: both
+    content: ''
+    width: 100%
+  ul
+    width: 9999px
+    transition: all 0.7s ease
+    li
+      float: left
+      height: 330px
+      position: relative
+  img
+    display: block
+    float: left
+    height: 330px
+    padding-right: 15px
+    width: 600px
+
+.description
+  position: absolute
+  opacity: 0
+  top: 0
+  left: 0
+  max-height: 360px
+  height: 100%
+  max-width: 600px
+  width: 100%
+  background-color: rgba(0, 0, 0, 0.8)
+  color: #2b2a2a
+  transition: all 0.5s ease 0.1s
+  padding: 20px 30px 0 30px
+  box-sizing: border-box
+  text-align: left
+
+.item.slick-slide:hover .description
+  opacity: 1
+
+.img_portf
+  position: relative
+  max-width: 400px
+  max-height: 224px
+  height: 100%
+  .description
+    position: absolute
+    opacity: 0
+    top: 0
+    left: 0
+    max-height: 360px
+    height: 100%
+    max-width: 600px
+    width: 100%
+    background-color: rgba(255, 255, 255, 0)
+    color: #2b2a2a
+    transition: all 0.5s ease 0.1s
+    padding: 20px 30px 0 30px
+    box-sizing: border-box
+  img
+    max-width: 100%
+  .description p
+    font: 500 1rem/1.4 'Open-Sans', sans-serif
+    margin-top: 10px
+    color: #fff
+
+.description a
+  font: 600 2.2rem/1 'Monserrat', sans-serif
+  color: #fff
+
+.img_portf:hover .description, .hiden:hover .description
+  opacity: 1
+  background-color: rgba(15, 15, 15, 0.9)
+  transition: all 0.4s ease 0s
+
+.description p
+  font: 500 1.2rem/1.4 'Open-Sans', sans-serif
+  margin-top: 10px
+  color: #fff
+
+#section-5 .portfolio
+  .description a
+    font: 600 2.5rem/1 'Monserrat', sans-serif
+    color: #fff
+  ul li:hover .description
+    opacity: 1
+    background-color: rgba(15, 15, 15, 0.9)
+    transition: all 0.4s ease 0s
+
+footer .content
+  margin: 0
+  text-align: center
+
+.content .card
+  text-align: left
+  vertical-align: top
+
+.card
+  display: inline-block
+  height: 720px
+  margin: 0 4% 0 4%
+  max-width: 450px
+  padding: 20px
+  width: 100%
+  p
+    font: 300 1.5rem/1.2 'Open-Sans', sans-serif
+  > p
+    margin-bottom: 60px
+  .component-title
+    font: 600 1.5rem/1.5 'Open-Sans', sans-serif
+  .phone-component
+    p
+      font: 800 3.25rem/1.2 'Montserrat', sans-serif
+      margin-bottom: 10px
+    a
+      border-bottom: 5px solid #D85151
+      color: #D85151
+      font: 300 2.25rem/1.2 'Montserrat', sans-serif
+      text-transform: uppercase
+      display: inline-block
+  h2
+    font: 800 4.5rem/1.2 'Montserrat', sans-serif
+    margin: 0 0 40px 0
+  .email-component, .phone-component
+    margin-bottom: 70px
+  .social-component
+    margin: 20px 0 40px 0
+    p
+      margin-bottom: 20px
+  .red
+    color: #D85151
+
+.message-form
+  input, textarea
+    background-color: transparent
+    border: 4px solid #fff
+    box-sizing: border-box
+    color: #eee
+    font: 300 1.5rem/1.4 'Open-Sans', sans-serif
+    margin: 10px 0 30px 0
+    max-width: 400px
+    width: 100%
+    transition: all 0.5s ease 0.1s
+  input:focus, textarea:focus
+    border-color: #D85151
+    transition: all 0.5s ease 0.1s
+  input
+    height: 70px
+    padding: 0 15px
+  textarea
+    height: 138px
+    padding: 10px 15px
+  .submit
+    background-color: #fff
+    color: #2b2a2a
+    display: block
+    font: 600 1.5rem/70px 'Montserrat', sans-serif
+    height: 70px
+    margin: 10px 0 30px 0
+    max-width: 400px
+    overflow: hidden
+    text-transform: uppercase
+    text-align: center
+    transition: all 0.5s ease 0.1s
+    width: 100%
+    border: none
+    cursor: pointer
+    &:hover
+      color: #fff
+      background-color: #D85151
+      transition: all 0.5s ease 0.1s
+
+.copyright
+  margin-top: 60px
+  p
+    padding-bottom: 1rem
+
+.overflow
+  position: fixed
+  width: 100%
+  height: 100%
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  background-color: rgba(30, 30, 30, 0.7)
+  z-index: 101
+
+.popup
+  position: relative
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  padding: 5% 0
+  transform: translate3d(0, 0, 0)
+  width: 1366px
+  z-index: 102
+  background-color: #383838
+  .foot-panel, .head-panel
+    display: none
+  .card
+    margin: 0
+    margin-left: 100px
+    max-width: 500px
+    h2
+      color: #fff
+      line-height: 1
+      margin-bottom: 80px
+      text-transform: uppercase
+  .width
+    border: none
+  .content
+    margin: 0 auto
+  .message-form
+    margin-top: 5px
+  ul li a
+    font: 800 3.25rem/1.2 'Montserrat', sans-serif
+    color: #954747
+    text-transform: uppercase
+    transition: all 0.5s ease 0.1s
+    &:hover
+      color: #D85151
+      transition: all 0.5s ease 0.1s
+  .close
+    background: url(../img/close.png) 0 0 no-repeat
+    height: 30px
+    width: 30px
+    position: absolute
+    top: 30px
+    right: 30px
+    cursor: pointer
+
+.disabled
+  cursor: default !important
+  opacity: 0.5
+
+.portfolio .disabled
+  cursor: default !important
+  background-color: #969595 !important
+
+.social-component 
+  .social 
+    .disabled
+      border: 2px solid rgba(255,255,255,0.5)
+      &:hover
+        border: 2px solid rgba(255,255,255,0.5)
+
+.coop-sign 
+  .social 
+    .disabled
+      border: 2px solid rgba(0,0,0,0.5)
+      &:hover
+        border: 2px solid rgba(0,0,0,0.5)
+
+.page-title
+  color: rgba(43, 42, 42, 0.15)
+  font: 800 13.125rem/0.8 'Montserrat', sans-serif
+  left: 0
+  position: absolute
+  text-transform: uppercase
+  top: -50px
+  transform-origin: 0 100%
+  transform: rotate(90deg)
+
+#jobs .content, #team .content, #contact .content
+  margin-top: -100px
+  margin-left: 220px
+
+#jobs
+  .content
+    color: #fff
+    text-align: right
+  h1, h2
+    text-align: left
+  h1
+    color: #2b2a2a
+  h2
+    color: rgba(43, 42, 42, 0.7)
+    margin-bottom: 50px
+
+#team h2, #contact h2, #portfolio h2
+  color: rgba(43, 42, 42, 0.7)
+  margin-bottom: 50px
+
+.states
+  max-width: 1500px
+  width: 100%
+  margin-bottom: 40px
+  display: -webkit-flex
+  display: flex
+  -webkit-flex-wrap: wrap
+  flex-wrap: wrap
+  -webkit-justify-content: space-between
+  justify-content: space-between
+  .state
+    background-color: #2b2a2a
+    box-sizing: border-box
+    display: inline-block
+    height: 505px
+    margin: 0px 0px 50px 0
+    padding: 25px
+    position: relative
+    text-align: left
+    vertical-align: top
+    width: 433px
+  .state-1
+    background: url(../img/state1.png) 0 0 no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    border: 4px solid #1826cb
+  .state-2
+    background: url(../img/state2.png) 0 0 no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    border: 4px solid #cf6819
+  .state-3
+    background: url(../img/state5.png) 0 0 no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    border: 4px solid #1e8cd3
+  .state-4
+    background: url(../img/state6.png) 0 0 no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    border: 4px solid #89238c
+  .state-5
+    background: url(../img/state3.png) 0 0 no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    border: 4px solid #8c243c
+
+  .state-6
+    background: url(../img/state4.png) 0 0 no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    border: 4px solid #8d5d24
+
+.content .state h3
+  color: #fff
+  margin-bottom: 20px
+  text-align: center
+  width: 234px
+
+.state-1 h3
+  background-color: #1826cb
+
+.state-2 h3
+  background-color: #cf6819
+
+.state-3 h3
+  background-color: #1e8cd3
+
+.state-4 h3
+  background-color: #89238c
+
+.state-5 h3
+  background-color: #8c243c
+
+.state-6 h3
+  background-color: #8d5d24
+
+.state
+  .date, .description, .readmore
+    color: rgba(255, 255, 255, 0.7)
+    font: 700 1.1rem/1.4 'Open Sans', sans-serif
+    text-transform: uppercase
+    transition: all 0.5s ease 0.1s
+  .fulltitle
+    font: 800 2rem/1.2 'Montserrat', sans-serif
+    margin: 80px 0 20px 0
+  .readmore
+    bottom: 25px
+    left: 25px
+    position: absolute
+    &:hover
+      color: #fff
+      transition: all 0.5s ease 0.1s
+
+#contact
+  background: url(../img/worldmap.png) 0 0 no-repeat
+  background-size: cover
+  .content
+    margin-left: 220px
+    margin-top: -100px
+  h2
+    color: rgba(43, 42, 42, 0.7)
+    line-height: 1.2
+    margin-top: 20px
+  .address
+    border-top: 3px solid #2b2a2a
+    margin-top: 70px
+    padding-top: 50px
+    max-width: 494px
+    width: 100%
+    .city, .phone
+      font: 600 2.25rem/1.4 'Open Sans', sans-serif
+      margin-top: 30px
+    .mail
+      font: 300 1.5rem/1.4 'Open Sans', sans-serif
+      margin: 20px 0 30px 0
+      b
+        font-weight: 500
+  .social .icon
+    border: 2px solid #2b2a2a
+    transition: all 0.5s ease 0.1s
+    &:hover
+      border: 2px solid #D85151
+      transition: all 0.5s ease 0.1s
+
+.coop-cards
+  margin-top: 100px
+  max-width: 1500px
+  width: 100%
+  display: -webkit-flex
+  display: flex
+  -webkit-flex-wrap: wrap
+  flex-wrap: wrap
+  -webkit-justify-content: space-between
+  justify-content: space-between
+
+.coop-card
+  box-sizing: border-box
+  display: inline-block
+  height: 450px
+  margin: 70px 50px
+  overflow: hidden
+  padding: 20px
+  position: relative
+  text-align: left
+  max-width: 340px
+  width: 100%
+  background-size: cover
+  background-position: center
+  .coop-sign
+    bottom: 40px
+    left: 40px
+    position: absolute
+
+.bg-img-1
+  background-image: url(../img/IMG_0722.jpg)
+.bg-img-2
+  background-image: url(../img/IMG_0738.jpg)
+.bg-img-3
+  background-image: url(../img/IMG_0778.jpg)
+.bg-img-4
+  background-image: url(../img/IMG_0701.jpg)
+.bg-img-5
+  background-image: url(../img/IMG_0682.jpg)
+.bg-img-6
+  background-image: url(../img/IMG_0632.jpg)
+.bg-img-7
+  background-image: url(../img/IMG_0670.jpg)
+.bg-img-8
+  background-image: url(../img/IMG_0737.jpg)
+.bg-img-9
+  background-image: url(../img/IMG_0804.jpg)
+.bg-img-10
+  background-image: url(../img/IMG_0818.jpg)
+.bg-img-11
+  background-image: url(../img/IMG_0793.jpg)
+
+
+  
+
+
+
+.content .coop-card .coop-name
+  color: #fff
+  font: 700 2.25rem/1.3 'Open Sans', sans-serif
+
+.coop-card
+  .coop-post
+    display: block
+    font: 400 1.1rem/1.2 'Open Sans', sans-serif
+    font-style: italic
+  .social
+    display: block
+    .icon
+      border: 2px solid #fff
+      &:hover
+        border: 2px solid #D85151
+  &:nth-child(3n+2)
+    transform: translateY(-100px)
+
+.filter
+  text-align: right
+  display: none
+  overflow: hidden
+  ul
+    display: inline-block
+    li
+      float: left
+      padding: 10px
+      a
+        color: rgba(43, 42, 42, 0.3)
+        transition: all 0.5s ease 0.1s
+        &:hover
+          color: rgba(43, 42, 42, 0.7)
+          transition: all 0.5s ease 0.1s
+  li
+    color: rgba(43, 42, 42, 0.7)
+    cursor: pointer
+
+#portfolio .portfolio
+  display: block
+  overflow: hidden
+  margin: 0
+  border: 1px solid #eee
+  border-collapse: collapse
+  padding: 30px
+  box-sizing: border-box
+  margin: 0 -1px -1px 0
+  &:last-child
+    border-bottom: none
+    margin-bottom: 0
+
+.portfolio
+  > div
+    vertical-align: bottom
+  .pf-card
+    float: left
+    width: 100%
+    max-width: 350px
+    height: 436px
+    padding: 30px 20px
+    position: relative
+    box-sizing: border-box
+    margin-right: 60px
+    .leaf
+      position: absolute
+      width: 160px
+      height: 70px
+      bottom: 50px
+      left: 20px
+  .slider-description
+    font: 400 1.3rem/1.4 'Open Sans', sans-serif;
+
+.mobile_menu
+  display: none
+
+.head-panel
+  .img_res
+    display: none
+    width: 60px
+    position: absolute
+    left: 15px
+    top: 10px
+  .mobile_menu
+    display: none
+
+.block_o
+  display: none
+
+.our_text
+  display: none
+  position: absolute
+  font-size: 140px
+  color: #403F3F
+  font-weight: bold
+  bottom: -33px
+  right: -40px
+
+.color_block
+  display: none
+  background: #fff
+  height: 80px
+  position: relative
+  top: -1px
+
+.portfolio_two
+  display: none
+
+.new_link
+  max-width: 359px
+  width: 100%;
+  background: none;
+  height: 72px;
+  height: 69px
+  display: block
+  margin: 0 auto
+  text-align: center
+  font: 700 1.5rem/2.5 'Montserrat', sans-serif
+  border: 4px solid #fff
+  color: #fff
+  text-transform: uppercase
+  margin-top: 60px
+  transition: all 0.5s ease 0.1s
+  line-height: 68px
+
+.ratate
+  display: none
+  writing-mode: vertical-rl
+  color: #000
+  font-size: 25px
+  height: 510px
+  width: 50px
+  text-align: center
+  border: 2px solid #000
+  box-sizing: border-box
+  font-weight: bold
+  line-height: 2em
+
+.content.positio_r
+  position: relative
+
+.menu_transform
+  transform: translateX(-100px)
+  transition: all 0.5s ease 0.1s
+
+.MobileMenu
+  display: none
+
+.MobileMenu-btnContainer
+  right: 20px
+  position: fixed
+  top: 10px
+  width: 80px
+  height: 80px
+  cursor: pointer
+  background: #D85151
+  z-index: 200
+  transition: all 0.5s ease 0.1s
+
+.MobileMenu-btn
+  position: absolute
+  background: white
+  width: 40px
+  height: 3px
+  top: 50%
+  right: 0
+  left: 0
+  margin: 0 auto
+  margin-top: -1px
+  opacity: 1
+  transition: .4s
+  &::after
+    content: ""
+    display: block
+    position: absolute
+    background: white
+    width: 40px
+    height: 3px
+    top: 50%
+    right: 0
+    left: 0
+    margin-top: 10px
+    opacity: 1
+    transition: .4s
+  &::before
+    content: ""
+    display: block
+    position: absolute
+    background: white
+    width: 40px
+    height: 3px
+    top: 50%
+    right: 0
+    margin: 0 auto
+    margin-top: -15px
+    opacity: 1
+    transition: .4s
+
+.MobileMenu-checkbox
+  display: none
+  &:checked ~
+    .MobileMenu-container .MobileMenu-nav
+      opacity: 1
+      transition-delay: 0s
+    .MobileMenu-btnContainer .MobileMenu-btn
+      &::after
+        transform: rotate(-45deg)
+        -webkit-transform: rotate(-45deg)
+        top: -10px
+      &::before
+        transform: rotate(45deg)
+        -webkit-transform: rotate(45deg)
+        top: 16px
+      background: rgba(255, 255, 255, 0)
+
+.section .width.marg_top
+  padding-top: 100px
+
+.off_canvas
+  display: none
+  position: fixed
+  max-width: 100px
+  text-align: center
+  width: 100%
+  height: 100vh
+  top: 0
+  right: 0px
+  background: #3D3D3D
+  transition: all 0.5s ease 0.1s
+  transform: translateX(100px)
+  z-index: 200
+  ul li
+    line-height: 50px
+    a
+      font: 700 0.7rem/1.2 'Montserrat', sans-serif
+      text-transform: uppercase
+      color: #fff
+
+.right_null
+  transform: translateX(0px)
+
+.transform_button
+  transform: translateX(-100px)
+
+.off_canvas .active_link
+  color: #D85151
+
+.department
+  display: none
+  max-width: 100%
+  width: 100%
+  outline: none
+  text-transform: uppercase
+  font-weight: bold
+
+.card .phone-component .number
+  display: block
+  border: none
+  color: #fff
+
+label.error
+  color: #D85151
+  font-size: 14px
+  position: relative
+  top: -20px
+
+.important_none 
+  display: none
+
+.active_filter 
+  color: #D85151
+  font-weight: bold
+
+.vendors
+  list-style: none
+  text-align: center
+  margin: 0px
+  margin-bottom: 10px
+  padding: 0px
+
+.product-carousel
+  max-width: 1032px
+  margin: 2em auto
+  .item
+    text-align: center
+    margin: 0;
+    img
+      margin: 0 auto
+      width: 500px
+
+.vendors li
+  display: inline-block
+
+.product-selector
+  width: 64px
+
+.slick-slide 
+  margin: 0 15px !important
+
+.slick-list 
+  margin: 0 -15px !important
+
+.vendors button 
+  outline: none
+  background: none
+  color: rgba(43, 42, 42, 0.7)
+  border: none
+  font-size: 16px
+
+.active_link
+  color: #D85151 !important
+
+.active_link_page
+  color: #D85151 !important
+
+.coop-card.dark.hidden.translatex-1
+  transform: translatex(100px)
+
+.coop-card.dark.hidden.translatex-2
+  transform: translatex(-100px)
+
+#jobs .jobs-stack
+  margin-bottom: 10px
+
+.requirements
+  color: #2b2a2a
+  text-align: left
+  font-size: 18px
+  line-height: 30px
+  list-style-type: circle
+  font-weight: 400
+  margin-bottom: 10px
+
+.padding_bottom
+  padding-bottom: 340px
+
+#section-3.ops 
+  padding-top: 0px 
+
+.content.relative.page-error
+  max-width: 1060px !important
+  width: 100% !important
+  margin: 0 auto !important
+  margin-top: 100px !important
+
+
+
+
+
+
+
+
+
+
